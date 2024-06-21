@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body {
+  font-family: "Young-Serif", "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  padding: 0;
+  margin: 0;
+  height: 1555px;
+}
+
+.recipe-card {
+  background-color: hsl(0, 0%, 100%);
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 696px;
+  height: auto;
+  padding: 40px;
+  margin-top: 123px;
+  border-radius: 10px;
+}
+.recipe-card h1 {
+  color: hsl(24, 5%, 18%);
+  font-weight: 600;
+}
+.recipe-card img {
+  width: 696px;
+  border-radius: 10px;
+}
+.recipe-card p {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(30, 10%, 34%);
+}
+.recipe-card .recipe-prep-time {
+  background-color: hsl(322.5, 100%, 98.43%);
+  padding: 25px;
+  border-radius: 10px;
+  line-height: 25px;
+}
+.recipe-card .recipe-prep-time h2 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+.recipe-card .recipe-prep-time ul {
+  color: hsl(332, 51%, 32%);
+}
+.recipe-card .recipe-prep-time span {
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+}
+.recipe-card .ingredients {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+}
+.recipe-card .ingredients h2 {
+  color: hsl(14, 45%, 36%);
+}
+.recipe-card .ingredients ul {
+  color: hsl(14, 45%, 36%);
+}
+.recipe-card .ingredients span {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+.recipe-card .instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+}
+.recipe-card .instructions h2 {
+  color: hsl(14, 45%, 36%);
+}
+.recipe-card .instructions span {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.recipe-card .instructions span strong {
+  font-weight: 600;
+}
+.recipe-card .instructions ol {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.recipe-card .nutrition {
+  display: block;
+}
+.recipe-card .nutrition h2 {
+  color: hsl(14, 45%, 36%);
+}
+.recipe-card .nutrition p {
+  color: hsl(30, 10%, 34%);
+}
+.recipe-card .nutrition table {
+  width: 100%;
+  line-height: 30px;
+  border-collapse: collapse;
+}
+.recipe-card .nutrition table tr {
+  padding: 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+.recipe-card .nutrition table tr .values {
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  color: hsl(24, 5%, 18%);
+}
+.attribution a {
+  color: hsl(14, 45%, 36%);
+}
+
+/*# sourceMappingURL=recipe-style.css.map */
